@@ -19,7 +19,6 @@ public class GiroKonto implements Konto {
         this.kontostand = kontostand;
     }
 
-    @Override
     public int getKontoInhaberId() {
         return kontoInhaberId;
     }
