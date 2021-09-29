@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class KontoUtils {
+public class KontoService {
 
 
     public static int summeAllerKonten(List<Konto> konten) {
