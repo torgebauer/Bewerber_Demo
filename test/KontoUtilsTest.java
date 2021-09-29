@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class KontoUtilsTest {
@@ -31,18 +30,21 @@ public class KontoUtilsTest {
         Assert.assertEquals(18000, KontoUtils.summeAllerKonten(konten));
     }
 
+    /*
     @Test
     public void testExtractKontoInhaberFromKonto(){
         List<Kontoinhaber> expected = List.of(new Kontoinhaber(1), new Kontoinhaber(2));
         Assert.assertEquals(expected, KontoUtils.extractKontoInhaberFromKonten(konten));
     }
+*/
 
+    /*
     @Test
     public void testKontenSummeByKontoInhaber(){
         Assert.assertEquals(15000, KontoUtils.summeAlleKontenByKontoinhaber(konten, KONTO_INHABER_1));
 
     }
-
+    */
 
 
 
