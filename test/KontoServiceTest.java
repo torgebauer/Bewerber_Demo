@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class KontoUtilsTest {
+public class KontoServiceTest {
 
 
     public static final int KONTO_INHABER_1 = 1;
@@ -27,21 +27,21 @@ public class KontoUtilsTest {
 
     @Test
     public void testKontenSummeGesamt(){
-        Assert.assertEquals(18000, KontoUtils.summeAllerKonten(konten));
+        Assert.assertEquals(18000, KontoService.summeAllerKonten(konten));
     }
 
     /*
     @Test
     public void testExtractKontoInhaberFromKonto(){
         List<Kontoinhaber> expected = List.of(new Kontoinhaber(1), new Kontoinhaber(2));
-        Assert.assertEquals(expected, KontoUtils.extractKontoInhaberFromKonten(konten));
+        Assert.assertEquals(expected, KontoService.extractKontoInhaberFromKonten(konten));
     }
 */
 
     /*
     @Test
     public void testKontenSummeByKontoInhaber(){
-        Assert.assertEquals(15000, KontoUtils.summeAlleKontenByKontoinhaber(konten, KONTO_INHABER_1));
+        Assert.assertEquals(15000, KontoService.summeAlleKontenByKontoinhaber(konten, KONTO_INHABER_1));
 
     }
     */
