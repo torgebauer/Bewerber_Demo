@@ -30,6 +30,14 @@ public class KontoServiceTest {
       //  Assert.assertEquals(18000, KontoService.summeAllerKonten(konten));
     }
 
+
+      /*
+    @Test
+    public void testKontenSummeByKontoInhaber(){
+        Assert.assertEquals(15000, KontoService.summeAlleKontenByKontoinhaber(konten, KONTO_INHABER_1));
+    }
+    */
+
     /*
     @Test
     public void testExtractKontoInhaberFromKonto(){
@@ -38,14 +46,12 @@ public class KontoServiceTest {
     }
 */
 
-    /*
+/*
     @Test
-    public void testKontenSummeByKontoInhaber(){
-        Assert.assertEquals(15000, KontoService.summeAlleKontenByKontoinhaber(konten, KONTO_INHABER_1));
-
+    public void testFindMinKontoByInhaber(){
+          Assert.assertEquals(konten.get(0), KontoService.findMinKontoByInhaber(konten, KONTO_INHABER_1));
     }
-    */
-
+*/
 
 
 
