@@ -1,5 +1,7 @@
 public interface Konto {
 
-    public int getKontostand();
+    int getKontostand();
+
+    int getKontoInhaberId();
 
 }
